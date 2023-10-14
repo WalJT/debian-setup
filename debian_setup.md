@@ -7,6 +7,10 @@ https://wiki.debian.org/SourcesList#Configuring_Apt_Sources
 Also add contrib and non-free sections
 Use `dpkg --add-architecture i386` to add 32bit repos (needed for Steam)
 
+## Plymouth (fancy boot screen)
+
+https://wiki.debian.org/plymouth
+
 ## Software installs
 
 ```bash
