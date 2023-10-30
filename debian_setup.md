@@ -27,6 +27,8 @@ Use `dpkg --add-architecture i386` to add 32bit repos (needed for Steam)
 
 ## Software installs
 
+The following is a work in progress of my script to install software
+
 ```bash
 # Firefox
 sudo snap install firefox
