@@ -1,6 +1,6 @@
 # Debian Setup
 
-## Sources:
+## Sources
 
 https://wiki.debian.org/SourcesList#Configuring_Apt_Sources
 
@@ -35,3 +35,6 @@ sudo snap install code --classic
 sudo apt install texlive-{latex,fonts}-{recommended,extra} biber texlive-science kile
 ```
 
+## Virtualisation Setup (quemu / KVM)
+
+- <https://wiki.debian.org/KVM>
