@@ -14,3 +14,4 @@
 - [ ] Discord
 - [ ] Telegram
 - [x] `firmware-linux` package?
+- [ ] Flatseal
