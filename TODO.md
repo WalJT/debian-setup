@@ -5,9 +5,8 @@
 - [ ] Plymouth (fancy boot screen) (<https://wiki.debian.org/plymouth>)
 - [ ] Virtualisation Setup (quemu / KVM) (<https://wiki.debian.org/KVM>)
 - [ ] Git Configuration
-- [ ] Snap Packages
-  - [ ] Visual Studio Code
-    - That's actually it. Maybe I should use the `.deb` or `.tar.gz` instead
+- [x] Snap Packages
+  - [x] Visual Studio Code
 - [ ] Photography sofrware
   - [ ] Rapid Photo Downloader (deb)
   - [ ] Rawtherapee (Flatpak)

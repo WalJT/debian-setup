@@ -1,7 +1,7 @@
 #!/bin/bash
 # adds the appropriate lines to /etc/apt/sources.list
 # and update all installed packages, then installs
-# Flatpak and associated KDE Discover backend.
+# Flatpak, Snap, and associated KDE Discover backend.
 
 set -e
 
@@ -27,6 +27,9 @@ apt install flatpak plasma-discover-backend-flatpak
 
 # Add Flathub repo
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# Install snapd and plugin
+sudo apt install snapd plasma-discover-backend-snap
 
 # Prompt to reboot
 echo "Your system has been updated and the Flathub repository was added."
