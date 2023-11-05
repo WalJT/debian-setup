@@ -15,3 +15,4 @@
 - [ ] Telegram
 - [x] `firmware-linux` package?
 - [ ] Flatseal
+- [ ] ProtonVPN
