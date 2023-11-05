@@ -12,3 +12,6 @@
   - [ ] Rapid Photo Downloader (deb)
   - [ ] Rawtherapee (Flatpak)
   - [ ] Digikam (Flatpak)
+- [ ] Discord
+- [ ] Telegram
+- [ ] `firmware-linux` package?
