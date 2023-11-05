@@ -29,7 +29,5 @@ apt install flatpak plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Prompt to reboot
-echo << EOM
-Your system has been updated and the Flathub repository was added.
-You need to restart your computer for these chantes to fully take effect.
-EOM
+echo "Your system has been updated and the Flathub repository was added."
+echo "You need to restart your computer for these chantes to fully take effect."
