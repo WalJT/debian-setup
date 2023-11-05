@@ -13,4 +13,4 @@
   - [ ] Digikam (Flatpak)
 - [ ] Discord
 - [ ] Telegram
-- [ ] `firmware-linux` package?
+- [x] `firmware-linux` package?

@@ -2,8 +2,9 @@
 # adds the appropriate lines to /etc/apt/sources.list
 # and update all installed packages, then installs
 # Flatpak, Snap, and associated KDE Discover backend.
+# Run as root
 
-set -e
+set -ex
 
 sudo cat > /etc/apt/sources.list << EOF
 deb http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
@@ -19,8 +20,8 @@ deb-src http://deb.debian.org/debian/ bookworm-updates main non-free-firmware co
 EOF
 
 # Perform first system update
-sudo apt update
-sudo apt full-upgrade
+apt update
+apt full-upgrade
 
 # Install flatpak and plugin
 apt install flatpak plasma-discover-backend-flatpak
@@ -29,7 +30,10 @@ apt install flatpak plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install snapd and plugin
-sudo apt install snapd plasma-discover-backend-snap
+apt install snapd plasma-discover-backend-snap
+
+# Install the firmware-linux package (non-free firmware) to improve speeds of certain network cards
+apt install firmware-linux # Do this here since a reboot is needed anyway
 
 # Prompt to reboot
 echo "Your system has been updated and the Flathub repository was added."
