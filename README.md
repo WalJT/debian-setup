@@ -29,3 +29,4 @@ Feel free to modify these scripts to meet your own needs.
 - [x] `firmware-linux` package?
 - [ ] Flatseal
 - [ ] ProtonVPN
+- [ ] fish shell & konsole profile
