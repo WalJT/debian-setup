@@ -9,8 +9,8 @@ set -ex # Show what commands are being executed and stop if something fails
 sudo apt update
 
 # Firefox
-sudo apt remove firefox-esr --auto-remove --purge
-flatpak install flathub app/org.mozilla.firefox/x86_64/stable
+# sudo apt remove firefox-esr --auto-remove --purge
+# flatpak install flathub app/org.mozilla.firefox/x86_64/stable
 
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
