@@ -6,7 +6,7 @@
 
 set -ex
 
-sudo cat > /etc/apt/sources.list << EOF
+cat > /etc/apt/sources.list << EOF
 deb http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
 deb-src http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
 
