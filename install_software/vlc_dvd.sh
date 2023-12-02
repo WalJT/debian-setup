@@ -4,8 +4,8 @@
 set -ex
 
 # Libraries
-sudo apt install libdvdread8 libdvdnav4 libdvd-pkg
+sudo apt install libdvdread8 libdvdnav4 libdvd-pkg -y
 sudo dpkg-reconfigure libdvd-pkg
 
 # VLC Media player and k3b (Disc burning utility)
-sudo apt install vlc k3b
+sudo apt install vlc k3b -y

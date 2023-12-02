@@ -21,7 +21,7 @@ EOF
 
 # Perform first system update
 apt update
-apt full-upgrade
+apt full-upgrade -y
 
 # Install flatpak and plugin
 apt install flatpak plasma-discover-backend-flatpak
@@ -30,10 +30,10 @@ apt install flatpak plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install snapd and plugin
-apt install snapd plasma-discover-backend-snap
+apt install snapd plasma-discover-backend-snap -y
 
 # Install the firmware-linux package (non-free firmware) to improve speeds of certain network cards
-apt install firmware-linux # Do this here since a reboot is needed anyway
+apt install firmware-linux -y # Do this here since a reboot is needed anyway
 
 # Prompt to reboot
 echo "Your system has been updated and the Flathub repository was added."
