@@ -30,3 +30,4 @@ Feel free to modify these scripts to meet your own needs.
 - [ ] Flatseal
 - [ ] ProtonVPN
 - [ ] fish shell & konsole profile
+- [ ] TUI for software selection
