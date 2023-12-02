@@ -14,7 +14,7 @@ Feel free to modify these scripts to meet your own needs.
 ## TODO
 
 - [ ] Steam setup
-  - [ ] `sudo-dpkg --add-architecture i386`
+  - [ ] `sudo dpkg --add-architecture i386`
 - [ ] Plymouth (fancy boot screen) (<https://wiki.debian.org/plymouth>)
 - [ ] Virtualisation Setup (quemu / KVM) (<https://wiki.debian.org/KVM>)
 - [ ] Git Configuration
