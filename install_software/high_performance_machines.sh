@@ -15,8 +15,8 @@ sudo apt install steam steam-devices -y
 
 # Photo processing software
 sudo apt install rapid-photo-downloader -y
-flatpak install flathub com.rawtherapee.RawTherapee
+flatpak install flathub com.rawtherapee.RawTherapee -y
 
 # Video recording and processing
-flatpak install flathub com.obsproject.Studio
-flatpak install flathub org.kde.kdenlive
+flatpak install flathub com.obsproject.Studio -y
+flatpak install flathub org.kde.kdenlive -y

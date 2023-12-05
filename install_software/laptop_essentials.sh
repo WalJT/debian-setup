@@ -6,6 +6,9 @@ set -e
 # Refresh the package cache
 sudo apt update
 
+# Fish shell
+sudo apt install fish -y
+
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
@@ -36,5 +39,5 @@ sudo dpkg-reconfigure libdvd-pkg
 sudo apt install vlc k3b -y
 
 # Chat Apps
-flatpak install flathub org.telegram.desktop
-flatpak install flathub com.discordapp.Discord
+flatpak install flathub org.telegram.desktop -y
+flatpak install flathub com.discordapp.Discord -y
