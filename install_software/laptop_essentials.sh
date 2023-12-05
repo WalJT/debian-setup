@@ -34,3 +34,7 @@ sudo dpkg-reconfigure libdvd-pkg
 
 # VLC Media player and k3b (Disc burning utility)
 sudo apt install vlc k3b -y
+
+# Chat Apps
+flatpak install flathub org.telegram.desktop
+flatpak install flathub com.discordapp.Discord
