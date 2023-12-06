@@ -30,7 +30,7 @@ sudo apt install texlive-{latex,fonts}-{recommended,extra} biber texlive-science
 
 # Miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash ./Miniconda3-latest-Linux-x86_64.sh
+bash ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda
 rm ./Miniconda3-latest-Linux-x86_64.sh
 
 # Configure git
