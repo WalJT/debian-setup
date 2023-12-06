@@ -1,7 +1,10 @@
 #!/bin/bash
-# Install all the basic software I want on every laptop
+# Install stuff. Run as your user account
 
 set -e
+
+# Add 32bit repos (Needed for Steam)
+sudo dpkg --add-architecture i386
 
 # Refresh the package cache
 sudo apt update
@@ -49,3 +52,15 @@ sudo apt install vlc k3b -y
 # Chat Apps
 flatpak install flathub org.telegram.desktop -y
 flatpak install flathub com.discordapp.Discord -y
+
+# Steam
+sudo apt install steam steam-devices -y
+
+# Photo processing software
+sudo apt install rapid-photo-downloader -y
+flatpak install flathub com.rawtherapee.RawTherapee -y
+
+# Video recording and processing
+sudo apt install pipewire -y # Required for OBS
+flatpak install flathub com.obsproject.Studio -y
+flatpak install flathub org.kde.kdenlive -y
