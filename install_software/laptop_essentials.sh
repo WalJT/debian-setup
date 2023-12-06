@@ -17,6 +17,11 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 rm ./google-chrome-stable_current_amd64.deb
 
+# ffmpeg and yt-dlp
+sudo apt install ffmpeg -y
+mkdir $HOME/bin
+wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp $HOME/bin/yt-dlp
+
 # Complete LibreOffice
 sudo apt install libreoffice -y
 
