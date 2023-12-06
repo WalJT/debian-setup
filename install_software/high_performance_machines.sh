@@ -18,5 +18,6 @@ sudo apt install rapid-photo-downloader -y
 flatpak install flathub com.rawtherapee.RawTherapee -y
 
 # Video recording and processing
+sudo apt install pipewire -y # Required for OBS
 flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub org.kde.kdenlive -y
