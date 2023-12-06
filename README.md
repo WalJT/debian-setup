@@ -21,8 +21,8 @@ Feel free to modify these scripts to meet your own needs.
 - [x] Snap Packages
   - [x] Visual Studio Code
 - [ ] Photography sofrware
-  - [ ] Rapid Photo Downloader (deb)
-  - [ ] Rawtherapee (Flatpak)
+  - [x] Rapid Photo Downloader (deb)
+  - [x] Rawtherapee (Flatpak)
   - [ ] Digikam (Flatpak)
 - [x] Discord
 - [x] Telegram
@@ -30,4 +30,3 @@ Feel free to modify these scripts to meet your own needs.
 - [ ] Flatseal
 - [ ] ProtonVPN
 - [ ] fish shell & konsole profile
-- [ ] TUI for software selection
