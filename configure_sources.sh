@@ -4,7 +4,7 @@
 # Flatpak, Snap, and associated KDE Discover backend.
 # Run as root
 
-set -ex
+set -e
 
 cat > /etc/apt/sources.list << EOF
 deb http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free

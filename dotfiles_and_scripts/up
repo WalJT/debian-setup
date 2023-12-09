@@ -1,0 +1,10 @@
+#!/bin/bash
+# Update the system
+
+set -e
+
+yt-dlp -U
+flatpak update
+snap refresh
+sudo apt update
+sudo apt full-upgrade

@@ -3,6 +3,9 @@
 
 set -e
 
+# Ensure binaries folder exists
+mkdir -p $HOME/bin
+
 # Add 32bit repos (Needed for Steam)
 sudo dpkg --add-architecture i386
 
@@ -22,7 +25,6 @@ rm ./google-chrome-stable_current_amd64.deb
 
 # ffmpeg and yt-dlp
 sudo apt install ffmpeg -y
-mkdir $HOME/bin
 pushd $HOME/bin
 wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
 chnod +x yt-dlp
@@ -70,3 +72,6 @@ flatpak install flathub com.rawtherapee.RawTherapee -y
 sudo apt install pipewire -y # Required for OBS
 flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub org.kde.kdenlive -y
+
+# Copy update script to appropriate location
+cp dotfiles_and_scripts/up $HOME/bin/up
