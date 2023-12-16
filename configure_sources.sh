@@ -24,7 +24,7 @@ apt update
 apt full-upgrade -y
 
 # Install flatpak and plugin
-apt install flatpak plasma-discover-backend-flatpak -y
+apt install flatpak plasma-discover-backend-flatpak kde-config-flatpak -y
 
 # Add Flathub repo
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
