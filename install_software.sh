@@ -27,7 +27,7 @@ rm ./google-chrome-stable_current_amd64.deb
 sudo apt install ffmpeg -y
 pushd $HOME/bin
 wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
-chnod +x yt-dlp
+chmod +x yt-dlp
 popd
 
 # Complete LibreOffice
