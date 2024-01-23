@@ -12,6 +12,9 @@ sudo dpkg --add-architecture i386
 # Refresh the package cache
 sudo apt update
 
+# git
+sudo apt install git
+
 # Fish shell
 sudo apt install fish -y
 
