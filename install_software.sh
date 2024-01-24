@@ -12,8 +12,11 @@ sudo dpkg --add-architecture i386
 # Refresh the package cache
 sudo apt update
 
+# Make sure we have wget
+sudo apt install wget -y
+
 # git
-sudo apt install git
+sudo apt install git -y
 
 # Fish shell
 sudo apt install fish -y
@@ -22,10 +25,9 @@ sudo apt install fish -y
 sudo apt install inxi neofetch memtest86+ -y
 
 # Chrome
-sudo apt install wget # Make sure we have wget
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb -y
-rm ./google-chrome-stable_current_amd64.deb
+# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+# sudo apt install ./google-chrome-stable_current_amd64.deb -y
+# rm ./google-chrome-stable_current_amd64.deb
 
 # ffmpeg and yt-dlp
 sudo apt install ffmpeg -y
