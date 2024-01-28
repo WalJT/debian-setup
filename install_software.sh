@@ -42,6 +42,9 @@ sudo apt install libreoffice -y
 # LaTeX
 sudo apt install texlive-{latex,fonts}-{recommended,extra} biber texlive-science kile -y
 
+# Pandoc
+sudo apt install pandoc -y
+
 # Scanning software
 sudo apt install simple-scan skanlite -y
 
