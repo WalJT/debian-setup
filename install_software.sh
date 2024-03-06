@@ -34,7 +34,7 @@ sudo apt install texlive-{latex,fonts}-{recommended,extra} biber texlive-science
 sudo apt install pandoc -y
 
 # Scanning software
-sudo apt install simple-scan skanlite -y
+sudo apt install simple-scan -y
 
 # Miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -47,7 +47,7 @@ git config --global credential.helper store
 # Visual Studio Code
 sudo snap install code --classic
 
-# VLC Media player and k3b (Disc burning utility)
+# VLC Media player and brasero (Disc burning utility)
 sudo apt install vlc brasero -y
 
 # Kodi

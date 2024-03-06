@@ -1,8 +1,5 @@
 #!/bin/bash
-# adds the appropriate lines to /etc/apt/sources.list
-# and update all installed packages, then installs
-# Flatpak, Snap, and associated KDE Discover backend.
-# Run as root
+# Installs snapd, because everything else I need is pre-configured on Mint
 
 set -e
 
