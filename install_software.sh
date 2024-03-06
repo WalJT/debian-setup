@@ -6,9 +6,6 @@ set -e
 # Ensure binaries folder exists
 mkdir -p $HOME/bin
 
-# Add 32bit repos (Needed for Steam)
-# sudo dpkg --add-architecture i386
-
 # Refresh the package cache
 sudo apt update
 
@@ -24,17 +21,8 @@ sudo apt install fish -y
 # System information & diagnostics tools
 sudo apt install inxi neofetch memtest86+ -y
 
-# Chrome
-# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-# sudo apt install ./google-chrome-stable_current_amd64.deb -y
-# rm ./google-chrome-stable_current_amd64.deb
-
 # ffmpeg and yt-dlp
 sudo apt install ffmpeg -y
-# pushd $HOME/bin
-# wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
-# chmod +x yt-dlp
-# popd
 
 # Complete LibreOffice
 sudo apt install libreoffice -y
@@ -58,10 +46,6 @@ git config --global credential.helper store
 
 # Visual Studio Code
 sudo snap install code --classic
-
-# Libraries for DVD Playback
-# sudo apt install libdvdread8 libdvdnav4 libdvd-pkg -y
-# sudo dpkg-reconfigure libdvd-pkg
 
 # VLC Media player and k3b (Disc burning utility)
 sudo apt install vlc brasero -y
