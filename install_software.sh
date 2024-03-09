@@ -84,3 +84,10 @@ flatpak install flathub org.kde.kdenlive -y
 
 # Copy update script to appropriate location
 cp dotfiles_and_scripts/up $HOME/bin/up
+
+# Install my custom fish prompt
+mkdir -p $HOME/.config/fish/functions/
+pushd $HOME/Documents
+git clone https://github.com/WalJT/jules.fish
+cp jules.fish/jules.fish $HOME/.config/fish/functions/fish_prompt.fish
+popd
