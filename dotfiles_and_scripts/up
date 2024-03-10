@@ -5,6 +5,6 @@ set -e
 
 yt-dlp -U
 flatpak update
-snap refresh
+sudo snap refresh
 sudo apt update
 sudo apt full-upgrade
