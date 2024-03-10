@@ -3,7 +3,7 @@
 
 set -e
 
-yt-dlp -U
+# yt-dlp -U
 flatpak update
 snap refresh
 sudo apt update
