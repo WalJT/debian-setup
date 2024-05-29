@@ -56,9 +56,6 @@ rm ./Miniconda3-latest-Linux-x86_64.sh
 # Configure git
 git config --global credential.helper store
 
-# Visual Studio Code
-sudo snap install code --classic
-
 # Libraries for DVD Playback
 sudo apt install libdvdread8 libdvdnav4 libdvd-pkg -y
 sudo dpkg-reconfigure libdvd-pkg

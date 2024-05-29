@@ -30,7 +30,7 @@ apt install flatpak plasma-discover-backend-flatpak kde-config-flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install snapd and plugin
-apt install snapd plasma-discover-backend-snap -y
+# apt install snapd plasma-discover-backend-snap -y
 
 # Install the firmware-linux package (non-free firmware) to improve speeds of certain network cards
 # apt install firmware-linux -y # Do this here since a reboot is needed anyway

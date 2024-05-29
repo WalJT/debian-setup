@@ -7,7 +7,7 @@ and make a few assumptions:
 1. The operating system is Debian `12.x` (Bookworm)
 2. The KDE Plasma desktop environment was chosen during installation
 3. You are OK with non-free software repos being enabled
-4. You want Flatpak and Snap packages
+4. You want Flatpak packages when available
 
 Feel free to modify these scripts to meet your own needs.
 
